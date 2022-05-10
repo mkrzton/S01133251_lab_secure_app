@@ -1,4 +1,4 @@
-name: CI
+name: TestScan
 on:
   push:
     branches:
