@@ -15,12 +15,6 @@ jobs:
           echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
           echo "::set-output name=sha_short::$(git rev-parse HEAD)"
       - name: Prepare Mixeway docker image
-        run: |
-          docker pull mixeway/scanner:latest
+        run: docker pull mixeway/scanner:latest
       - name: Run Scan
-        run: |
-<<<<<<< HEAD
-	    docker run -e OSS_USERNAME=michaldao54@gmail.com -e OSS_KEY=8255723c8713f72e795e9a11c03db4a99a481b29 -e MIXEWAY_URL=https://hub.mixeway.io -e MIXEWAY_KEY=5730d290-2ab2-4245-92dc-94aa7fa7d707 -e MIXEWAY_PROJECT_ID=103 -e MODE=STANDALONE -e MIXEWAY_PROJECT_NAME=S01176006_lab_secure_app -e COMMIT_ID=test -e BRANCH=master -v /opt/lab_sec_audit/sast:/opt/sources mixeway/scanner:latest
-=======
-          docker run -e OSS_USERNAME=marcin.krzton.maziopa@gmail.com -e OSS_KEY=e447764018689ea293b502037e82cad13ee5dd41 -e MIXEWAY_URL=https://hub.mixeway.io -e MIXEWAY_KEY=47413108-2688-4c7c-9fe8-249c649946aa -e MIXEWAY_PROJECT_ID=99 -e MODE=STANDALONE -e MIXEWAY_PROJECT_NAME=S01133251_lab_secure_app -e COMMIT_ID=test -e BRANCH=master -v /opt/lab_sec_audit/sast:/opt/sources mixeway/scanner:latest
->>>>>>> 7d3509cecf00ea626984b211d9de0e774e5c7d67
+        run: docker run -e OSS_USERNAME=michaldao54@gmail.com -e OSS_KEY=8255723c8713f72e795e9a11c03db4a99a481b29 -e MIXEWAY_URL=https://hub.mixeway.io -e MIXEWAY_KEY=5730d290-2ab2-4245-92dc-94aa7fa7d707 -e MIXEWAY_PROJECT_ID=103 -e MODE=STANDALONE -e MIXEWAY_PROJECT_NAME=S01176006_lab_secure_app -e COMMIT_ID=test -e BRANCH=master -v /opt/lab_sec_audit/sast:/opt/sources mixeway/scanner:latest
