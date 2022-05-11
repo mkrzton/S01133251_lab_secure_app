@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:78c0601f-068e-44f4-83df-134298c9d96d" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:4f6dbb66-7878-4916-bcdf-9c1d162035c9" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2022-05-11T16:12:40Z</timestamp>
+    <timestamp>2022-05-11T16:36:34Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
@@ -31,7 +31,7 @@
       <name>struts2-core</name>
       <version>2.3.30</version>
       <description>Apache Struts 2</description>
-      <scope>optional</scope>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">e775580415dfa3a77e92f0ce6229268d</hash>
         <hash alg="SHA-1">0d2281c1a99f65b1ab19a5efd83a00a00995166d</hash>
@@ -53,6 +53,7 @@
       <name>xwork-core</name>
       <version>2.3.30</version>
       <description>Apache Struts 2</description>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">76a275dacb7179493c98a33fbe9bdbe6</hash>
         <hash alg="SHA-1">381b37132bfb0d29c691c60cf5ad4e38c96998be</hash>
@@ -224,6 +225,7 @@ file comparators, endian transformation classes, and much more.</description>
       <name>spring-core</name>
       <version>3.0.5.RELEASE</version>
       <description>Spring Framework Parent</description>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">d05ff86057e3e4ec2040c9dccf732628</hash>
         <hash alg="SHA-1">1633e94943d57746ef76910489f1cd71fe667e04</hash>
@@ -390,6 +392,7 @@ file comparators, endian transformation classes, and much more.</description>
       <name>log4j</name>
       <version>1.2.14</version>
       <description>Log4j</description>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">599b8ba07d1d04f0ea34414e861d7ad1</hash>
         <hash alg="SHA-1">03b254c872b95141751f414e353a25c2ac261b51</hash>
@@ -447,7 +450,7 @@ file comparators, endian transformation classes, and much more.</description>
       <group>javax.servlet</group>
       <name>servlet-api</name>
       <version>2.4</version>
-      <scope>optional</scope>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">f6cf3fde0b992589ed3d87fa9674015f</hash>
         <hash alg="SHA-1">3fc542fe8bb8164e8d3e840fe7403bc0518053c0</hash>
@@ -726,6 +729,7 @@ file comparators, endian transformation classes, and much more.</description>
       <description>Commons Lang, a package of Java utility classes for the
         classes that are in java.lang's hierarchy, or are considered to be so
         standard as to justify existence in java.lang.</description>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">237a8e845441bad2e535c57d985c8204</hash>
         <hash alg="SHA-1">16313e02a793435009f1e458fa4af5d879f6fb11</hash>
@@ -959,6 +963,7 @@ file comparators, endian transformation classes, and much more.</description>
       <name>ejb3-persistence</name>
       <version>1.0.2.GA</version>
       <description>Java Persistence API</description>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">fcce49800b85f6d334d3e5a7c39c8184</hash>
         <hash alg="SHA-1">be6483b6ed60a15588f54f91c25a09c745df0760</hash>
@@ -1061,7 +1066,7 @@ file comparators, endian transformation classes, and much more.</description>
       <name>spring-tx</name>
       <version>3.0.5.RELEASE</version>
       <description>Spring Framework Parent</description>
-      <scope>optional</scope>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">a392c9ca6ac71c9d91f9b03be401e68f</hash>
         <hash alg="SHA-1">91eb9bd9baa61a62590a8093667107cb2c7c8184</hash>
@@ -1169,7 +1174,7 @@ file comparators, endian transformation classes, and much more.</description>
       <name>gson</name>
       <version>2.8.1</version>
       <description>Gson JSON library</description>
-      <scope>optional</scope>
+      <scope>required</scope>
       <hashes>
         <hash alg="MD5">2c334d82c64b56ae59ea1bdcbb674303</hash>
         <hash alg="SHA-1">02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0</hash>

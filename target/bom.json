@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:78c0601f-068e-44f4-83df-134298c9d96d",
+  "serialNumber" : "urn:uuid:4f6dbb66-7878-4916-bcdf-9c1d162035c9",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2022-05-11T16:12:40Z",
+    "timestamp" : "2022-05-11T16:36:34Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -51,7 +51,7 @@
       "name" : "struts2-core",
       "version" : "2.3.30",
       "description" : "Apache Struts 2",
-      "scope" : "optional",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -117,6 +117,7 @@
       "name" : "xwork-core",
       "version" : "2.3.30",
       "description" : "Apache Struts 2",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -606,6 +607,7 @@
       "name" : "spring-core",
       "version" : "3.0.5.RELEASE",
       "description" : "Spring Framework Parent",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -1039,6 +1041,7 @@
       "name" : "log4j",
       "version" : "1.2.14",
       "description" : "Log4j",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -1194,7 +1197,7 @@
       "group" : "javax.servlet",
       "name" : "servlet-api",
       "version" : "2.4",
-      "scope" : "optional",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -1876,6 +1879,7 @@
       "name" : "commons-lang",
       "version" : "2.4",
       "description" : "Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -2466,6 +2470,7 @@
       "name" : "ejb3-persistence",
       "version" : "1.0.2.GA",
       "description" : "Java Persistence API",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -2683,7 +2688,7 @@
       "name" : "spring-tx",
       "version" : "3.0.5.RELEASE",
       "description" : "Spring Framework Parent",
-      "scope" : "optional",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -2926,7 +2931,7 @@
       "name" : "gson",
       "version" : "2.8.1",
       "description" : "Gson JSON library",
-      "scope" : "optional",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
